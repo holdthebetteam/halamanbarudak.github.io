@@ -5,6 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css" type="text/css" media="all" />
 		<script src="script.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+          // Mengatur properti viewport untuk mencegah zoom
+          var viewportMetaTag = document.querySelector('meta[name=viewport]');
+          if (viewportMetaTag) {
+                viewportMetaTag.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0';
+          }
+		</script>
 		<title>hold the bet team</title>
 	</head>
 	<body>
